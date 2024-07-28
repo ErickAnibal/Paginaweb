@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado de la página</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        header {
+            background-color: #bda284;
+            color: #0caeee;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo {
+            float: left;
+            margin-left: 10px;
+        }
+        nav {
+            float: right;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav ul li a:hover {
+            background-color: #faf5f5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\LOGO.PNG" alt="Logo de la empresa de violinistas"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div style="clear: both;"></div> <!-- Limpiar floats -->
+    </header>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección Hero de la Página</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        .hero {
+            background-image: url('C:\Users\User\Desktop\PAGINA WEB VIOLIN\LOGO.png');
+            background-size: cover;
+            color: #df2261;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            display: inline-block;
+            background-color: #a18877;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .hero a:hover {
+            background-color: #c7a798;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1> <p>VICTORIA YEPEZ VIOLINISTA </p> </h1>
+            <p>Soy Victoria, músico violinista, educadora musical, adoradora y emprendedora. Gracias por visitar mi web, donde podrás encontrar: 
+                partituras, E-books, videos, tutoriales, predicas acerca de la adoración a Dios y mucho más…</p>
+                
+            <a href="servicios.html">Ver nuestros servicios</a>
+        </div>
+    </section>
+    
+    
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Dos Columnas</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .columna1 {
+            flex-basis: 45%;
+        }
+        .columna2 {
+            flex-basis: 50%;
+            padding-left: 20px;
+        }
+        .columna2 h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .columna2 p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .columna2 a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .columna2 a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="columna1">
+            <div class="imagen">
+                <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\01.jpg" alt="Imagen descriptiva">
+            </div>
+        </div>
+        <div class="columna2">
+            <h2>Página Web de Diseño Web</h2>
+            <p>Somos expertos en ofrecer soluciones creativas y funcionales para todo tipo de proyectos web. Nuestros servicios abarcan desde diseño visual hasta desarrollo completo, asegurando una experiencia digital memorable.</p>
+            <a href="servicios.html">Ver nuestros servicios</a>
+        </div>
+    </div>
+    
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Dos Columnas con Estilos CSS</title>
+    <style>
+        /* Estilos para la sección */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+            background-color: #a7aa9d;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(159, 179, 50, 0.1);
+        }
+
+        /* Estilos para la primera columna */
+        .columna1 {
+            flex-basis: 45%;
+        }
+
+        /* Estilos para la imagen dentro de la primera columna */
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Estilos para la segunda columna */
+        .columna2 {
+            flex-basis: 50%;
+            padding-left: 20px;
+        }
+
+        /* Estilos para el título dentro de la segunda columna */
+        .columna2 h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #0f0f11;
+        }
+
+        /* Estilos para el párrafo dentro de la segunda columna */
+        .columna2 p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #474740;
+        }
+
+        /* Estilos para el enlace dentro de la segunda columna */
+        .columna2 a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .columna2 a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="columna1">
+            <div class="imagen">
+                <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\02.jpg" alt="Imagen descriptiva">
+            </div>
+        </div>
+        <div class="columna2">
+            <h2>Página Web de Diseño Web</h2>
+            <p>Somos expertos en ofrecer soluciones creativas y funcionales para todo tipo de proyectos web. Nuestros servicios abarcan desde diseño visual hasta desarrollo completo, asegurando una experiencia digital memorable.</p>
+            <a href="servicios.html">Ver nuestros servicios</a>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galería de Imágenes</title>
+        <style>
+            /* Estilos opcionales para mejorar la presentación */
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                margin: 20px;
+            }
+            .gallery img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(255, 253, 253, 0.1);
+                transition: transform 0.3s ease;
+            }
+            .gallery img:hover {
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <section class="gallery">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\1.jpg" alt="Imagen 1">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\2.jpeg" alt="Imagen 2">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\3.jfif" alt="Imagen 3">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\4.jfif" alt="Imagen 4">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\5.png" alt="Imagen 5">
+            <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\6.jpg" alt="Imagen 6">
+        </section>
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Galería de Imágenes con Estilos CSS</title>
+            <style>
+                /* Estilos para la sección de la galería */
+                .gallery-section {
+                    background-color: #f0f0f0;
+                    padding: 40px 0;
+                    text-align: center;
+                }
+        
+                /* Estilos para la galería de imágenes */
+                .gallery {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 20px;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+        
+                .gallery img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(243, 245, 240, 0.1);
+                    transition: transform 0.3s ease;
+                }
+        
+                .gallery img:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+        </head>
+        <body>
+            
+            
+            <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer de la Página Web</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex-basis: 25%;
+            padding: 10px;
+        }
+        .column img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .column ul li {
+            margin-bottom: 10px;
+        }
+        .social-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+        .social-buttons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 50%;
+            line-height: 40px;
+            font-size: 1.2em;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .social-buttons a:hover {
+            background-color: #882f2f;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="container">
+            <div class="column">
+                <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\LOGO.png" alt="Logo de la Empresa">
+            </div>
+            <div class="column">
+                <h3>Servicios de Diseño Web</h3>
+                <ul>
+                    <li>Diseño UX/UI</li>
+                    <li>Desarrollo Front-end</li>
+                    <li>Desarrollo Back-end</li>
+                    <li>Optimización SEO</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Pestañas Legales</h3>
+                <ul>
+                    <li>Política de Privacidad</li>
+                    <li>Términos y Condiciones</li>
+                    <li>Aviso Legal</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Redes Sociales</h3>
+                <div class="social-buttons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos CSS para Footer</title>
+    <style>
+        /* Estilos para el footer */
+        footer {
+            background-color: #f5f0f0;
+            color: #ac2c2c;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Estilos para el contenedor de las columnas */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        /* Estilos para cada columna */
+        .column {
+            flex-basis: 25%;
+            padding: 10px;
+        }
+
+        /* Estilos para el logo */
+        .column img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Estilos para las listas de servicios y pestañas legales */
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .column ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para los botones de redes sociales */
+        .social-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .social-buttons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #e4a0a0;
+            color: #333;
+            border-radius: 50%;
+            line-height: 40px;
+            font-size: 1.2em;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-buttons a:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="container">
+            <div class="column">
+                <img src="C:\Users\User\Desktop\PAGINA WEB VIOLIN\LOGO.png" alt="Logo de la Empresa">
+            </div>
+            <div class="column">
+                <h3>Servicios de Diseño Web</h3>
+                <ul>
+                    <li>Diseño UX/UI</li>
+                    <li>Desarrollo Front-end</li>
+                    <li>Desarrollo Back-end</li>
+                    <li>Optimización SEO</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Pestañas Legales</h3>
+                <ul>
+                    <li>Política de Privacidad</li>
+                    <li>Términos y Condiciones</li>
+                    <li>Aviso Legal</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Redes Sociales</h3>
+                <div class="social-buttons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
+
+</body>
+</html>
+
+        </body>
+        </html>
+        
+    </body>
+    </html>
+    
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>
+
+
+</body>
+</html>
